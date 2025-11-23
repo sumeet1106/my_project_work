@@ -326,3 +326,7 @@ LIMIT 1;
 select * 
 from rentals 
 order by  rented_date desc limit 3;
+
+use vehicle_demo;
+select * 
+from customer;
