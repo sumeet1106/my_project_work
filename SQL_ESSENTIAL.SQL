@@ -240,4 +240,5 @@ INSERT INTO employees (name, department, salary, hire_date) VALUES
  FROM EMPLOYEES
  WHERE YEAR(HIRE_DATE) = 2022;
 select *
-from employees;
+from employees
+where salary > 20000;
