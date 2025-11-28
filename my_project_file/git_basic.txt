@@ -1,0 +1,33 @@
+.
+________________________________________
+📌 What You Should Learn (Only Basics)
+You don’t need to learn complex Git commands.
+Just learn these 5–7 basic ones:
+Action	Command
+Create Git repo	git init
+Check status	git status
+Add files	git add .
+Save changes	git commit -m "message"
+Upload to GitHub	git push
+Get updates	git pull
+
+1️⃣ Initialize Git (only first time)
+git init
+2️⃣ Add all files
+git add .
+3️⃣ Save the change (commit)
+git commit -m "first commit"
+4️⃣ Connect to GitHub
+git remote add origin https://github.com/sumeet1106/demo_3.git
+5️⃣ Push to GitHub
+git branch -M main             # only if branch name is master
+git push -u origin main
+________________________________________
+🧠 Tip
+If remote origin is already added and you want to check 👉 run:
+git remote -v
+If it shows duplicate, then first remove:
+git remote remove origin
+Then add again:
+git remote add origin https://github.com/sumeet1106/demo_3.git
+
